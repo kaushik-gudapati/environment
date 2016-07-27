@@ -1,0 +1,17 @@
+*
+!.gitignore
+!.bash_aliases
+!.bash_profile
+!.bashrc
+!.git.aliases
+!.irb-history
+!.profile
+!.vimrc
+!.vim/*
+!.zshrc
+!.vim/*
+!*/
+Nirvana
+workspace
+.cache
+.rvm

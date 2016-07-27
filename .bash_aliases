@@ -1,0 +1,21 @@
+source ~/.git.aliases
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../..'
+alias path='echo -e ${PATH//:/\\n}'
+alias now='date +"%T"'
+alias nowtime=now
+alias today='date +"%d-%m-%Y"'
+alias root='sudo -i'
+alias su='sudo -i'
+alias aws='ssh -i ~/wareshare.pem ubuntu@52.77.226.126'
+alias db='mysql -uroot wareshare_development'
+alias we='curl -4 http://wttr.in/'
+alias moon='curl -4 http://wttr.in/Moon'
+alias ip="ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'"
+alias publicip="curl -s http://whatismijnip.nl |cut -d ' ' -f 5"
+alias udemy="udemy-dl -u kaushik.hbk.007@gmail.com -p potter"
+alias speedtest="~/speed"
